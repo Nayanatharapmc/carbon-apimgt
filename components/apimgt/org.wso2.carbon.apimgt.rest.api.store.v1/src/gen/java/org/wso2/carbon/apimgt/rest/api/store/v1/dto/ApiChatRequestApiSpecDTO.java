@@ -18,7 +18,7 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 
 import javax.validation.Valid;
 
-
+// Here graphQL SDL doesn't contain serviceUrl or tools. So need to change this for GraphQL
 
 public class ApiChatRequestApiSpecDTO   {
   

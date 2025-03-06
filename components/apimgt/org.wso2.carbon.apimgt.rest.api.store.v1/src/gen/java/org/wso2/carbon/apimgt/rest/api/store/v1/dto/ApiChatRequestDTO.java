@@ -18,7 +18,7 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 
 import javax.validation.Valid;
 
-
+// For graphQL case, response should be a null because no multi turn executions. And the apiSpec structure should be different.
 
 public class ApiChatRequestDTO   {
   

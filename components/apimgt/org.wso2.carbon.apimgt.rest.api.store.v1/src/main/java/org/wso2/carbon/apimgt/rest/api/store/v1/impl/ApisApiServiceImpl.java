@@ -284,7 +284,8 @@ public class ApisApiServiceImpl implements ApisApiService {
         return null;
     }
 
-    @Override
+    @Override   
+    // Here's the starting point of the ApiChat. (apiChatAction is either prepare/execute - for my case it should be only an execute)
     public Response apiChatPost(String apiId, String apiChatAction, ApiChatRequestDTO apiChatRequestDTO,
             MessageContext messageContext) throws APIManagementException {
         ApiChatConfigurationDTO configDto = ServiceReferenceHolder.getInstance().
